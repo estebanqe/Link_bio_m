@@ -4,8 +4,8 @@ import Link_bio_m.estilo.estilo as styles
 from Link_bio_m.pages.index import index
 from Link_bio_m.pages.courses import courses
 
-class State(rx.State):
-    """Define your app state here"""
+##class State(rx.State):
+#    """Define your app state here"""
 app = rx.App(
     stylesheets=styles.STYLESHEETS,
     style=styles.BASE_STYLE,
