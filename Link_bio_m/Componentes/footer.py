@@ -4,16 +4,15 @@ import Link_bio_m.constants as const
 from Link_bio_m.estilo.estilo import Size,EmSize
 from Link_bio_m.estilo.color import TextColor
 from Link_bio_m.estilo.color import Color as Color
-
+from Link_bio_m.Componentes.ant_components import float_button
 
 
 def footer() -> rx.Component:
     return rx.vstack(
         rx.image(
-            src="/logo_c.png",
+            src="/logocrebla.png",
             height=EmSize.VERY_BIG.value,     #alto del logo
             width=EmSize.VERY_BIG.value,      #ancho del logo
-            #padding_x=EmSize.SMALL.value,
             alt="logotipo de no se que\"eme\"entre llaves",  #esto es para personas ividentes
             margin_top=EmSize.BIG.value,
         ),
@@ -33,6 +32,11 @@ def footer() -> rx.Component:
             is_external=True,
             font_size=EmSize.MEDIUM.value,
         ),
+        
+         float_button(
+            icon=rx.image(src="/AvatarC.jpeg")
+        ),
+        
             rx.text(
                 "Innovación en Madera: Inspirando Espacios, Creando Historias para ti.",
                 font_size=EmSize.MEDIUM.value,

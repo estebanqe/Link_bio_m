@@ -2,7 +2,7 @@ import reflex as rx
 import Link_bio_m.estilo.estilo as style
 from Link_bio_m.estilo.estilo import Size,EmSize
 
-def Link_buttton(title: str, 
+def Link_button(title: str, 
                  body: str, 
                  image: str, 
                  url: str,

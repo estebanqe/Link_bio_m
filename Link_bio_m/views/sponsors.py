@@ -10,12 +10,12 @@ def sponsors() -> rx.Component:
         title("Creyente & Hijos"),
           rx.flex(
                Link_sponsor(
-                    "/carpinteria.jpg",
+                    "/AvatarC.jpeg",
                     const.CARPINTERIA, 
                     "simbolo de carpinteria"        
                ),
                Link_sponsor(
-                    "/logo_c.png",
+                    "/logocrebla.png",
                     const.CARPINTERIA, 
                     "simbolo de carpinteria"        
                ),
