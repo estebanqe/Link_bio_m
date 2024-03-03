@@ -10,7 +10,7 @@ def courses_links() -> rx.Component:
         title("Creyente"),
         Link_button(
             "pagina Creyente",
-            "Nueva descripcion de la pagina Creyente ",
+            "Nueva descripcion de la pagina Creyente para que se den cuenta ",
             "/AvatarC.jpeg",
             const.Creyente
         ),
