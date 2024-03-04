@@ -34,7 +34,8 @@ def footer() -> rx.Component:
         ),
         
          float_button(
-            icon=rx.image(src="/AvatarC.jpeg")
+            icon=rx.image(src="/AvatarC.jpeg"),
+            href=const.Creyente,
         ),
         
             rx.text(
